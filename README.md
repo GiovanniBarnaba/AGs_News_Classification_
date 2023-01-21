@@ -1,7 +1,7 @@
-# AGs_News_Classification_
+# Text Mining: AGs_News_Classification_
 
-AG's news Topic Classification dataset is constructed by choosing 4 largest classes from the original corpus composed of 1 milion articles. Each class contains 30000 training samples and 1900 testing samples summing to a total number of training sample of 120000 and testing sample of 7600. The main purposes of our analysis are:
+The main purposes of our analysis are: The construction of class clusters to compare them to the true categories that we have, through the two main Topic Modelling methods: LDA and NMF
 
-Through the Topic Modelling methods, we constructed class clusters to compare them to the true categories that we have.
-Use one Neural Network model to classify the data.
-Use a Transformer based\Language Model model to classify the data.
+Use one Neural Network model to classify the articles into different categories. In particular after trying several RNN models, we selected the two models (GRU and Lstm) whose prediction power and accuracy were better.
+
+Use a Transformer based\Language Model model to classify the data. In particular we used BERT which bring us to obtain slightly better classification than before.
